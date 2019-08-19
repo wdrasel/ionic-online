@@ -1,0 +1,23 @@
+
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot=start>
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="tertiary">Details Page</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="unfavoriteItem()" *ngIf="isFavorite">
+        <ion-icon name="star" slot="icon-only"></ion-icon>
+      </ion-button>
+      <ion-button (click)="favoriteItem()" *ngIf="!isFavorite">
+        <ion-icon name="star-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content no-padding *ngIf="information">
+    <img [src]="information.thumnailUrl">
+    <ion-card-title padding>{{information.title}}</ion-card-title>
+    <ion-card-content  [innerHTML]="information.body" >
+    </ion-card-content>
+</ion-content>

@@ -1,0 +1,21 @@
+[
+    {
+    "id": 1,
+    "title": "Study hard",
+    "body": "<p>Normally, billionaires don't happen by accident. Be a billionaire by studying interest rates, tax brackets and dividends.<ul><li>Study finance and entrepreneurship. Learn to identify consumer needs, then develop business models to fulfill those needs. Currently, computer science skills and new technology are lucrative careers.<sup>[1]</sup><li>If you haven't heard already STEM jobs (Science, Technology, Engineering, and Math)<sup>[2]</sup> are going to be on the rise and are already on the rise. Taking STEM classes to be able to increase your chances of getting a job in the future, as well as they are fields in which the pay check has almost no limit.<li>Read about successful billionaires; Warren Buffett, Bill Gates or Jon Huntsman, Sr. Be wise with money to amass more.</ul>",
+    "thumnailUrl":"assets/img/1.jpg"
+    },
+    {
+    "id": 2,
+    "title": " Save money",
+    "body": "<p>It takes money to make money. Set aside a specific amount of money from each paycheck and put it in a savings account, to collect interest and use for future investments.<ul><li>Decide what percentage of earnings to spare - as little as $20 per paycheck will make a difference over three or four years. Invest money you can afford to lose in a high-risk investment.</ul>",
+    "thumnailUrl":"assets/img/2.jpg"
+    },
+    {
+    "id": 3,
+    "title": "Start an Individual Retirement Account (IRA)",
+    "body": "<p>Available from financial institutions, IRAs are customized financial plans, set up to save for the future. To save a billion dollars, start saving as soon as possible. Interest accrues on savings.<sup>[3]</sup><ul><li>Depending on the financial institution, a minimum amount of money may be required initially. Research options and talk to a financial advisor.</ul>",
+    "thumnailUrl":"assets/img/3.jpg"
+    }
+        
+    ]

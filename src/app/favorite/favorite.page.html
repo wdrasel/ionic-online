@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+        <ion-title color="tertiary">My favourite List</ion-title>
+        <ion-buttons slot="start">
+          <ion-menu-button autoHide="false"></ion-menu-button>
+        </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content no-padding color="secondary">
+<ion-list> 
+  <div class="main">
+      <ion-item  *ngFor="let item of favouriteIds | async " [routerLink]="['/','details',item.id]" 
+      class="item-native" (click)="showInterstitial()">
+        <ion-thumbnail slot="start">
+          <img [src]="item.thumnailUrl">
+        </ion-thumbnail>
+
+        <ion-label>{{item.title}}</ion-label>
+        
+        
+      </ion-item>
+ 
+ </div>
+      
+ 
+</ion-list>
+</ion-content>
